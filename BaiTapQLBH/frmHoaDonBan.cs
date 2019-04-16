@@ -122,7 +122,7 @@ namespace BaiTapQLBH
                 catch (SqlException ex)
                 {
 
-                    MessageBox.Show("Thêm thất bại! \n\n" + ex.ToString());
+                    MessageBox.Show("Xoá thất bại! \n\n" + ex.ToString());
                 }
             }
         }

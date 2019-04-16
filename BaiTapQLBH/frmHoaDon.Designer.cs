@@ -356,7 +356,7 @@
             this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Image = global::BaiTapQLBH.Properties.Resources.delete;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(192, 177);
+            this.button1.Location = new System.Drawing.Point(182, 177);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 37);
             this.button1.TabIndex = 10;

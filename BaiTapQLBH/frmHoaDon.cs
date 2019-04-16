@@ -93,7 +93,7 @@ namespace BaiTapQLBH
             string user = txtMaHD.Text;
             if (String.IsNullOrEmpty(user))
             {
-                MessageBox.Show("Bạn chưa nhập mã khách ");
+                MessageBox.Show("Bạn chưa nhập mã hoá đơn");
             }
             else
             {
@@ -113,7 +113,7 @@ namespace BaiTapQLBH
                 catch (SqlException ex)
                 {
 
-                    MessageBox.Show("Thêm thất bại! \n\n" + ex.ToString());
+                    MessageBox.Show("Xoá thất bại! \n\n" + ex.ToString());
                 }
             }
         }
@@ -158,7 +158,7 @@ namespace BaiTapQLBH
             string search = cboSearch.Text;
             if (String.IsNullOrEmpty(search))
             {
-                MessageBox.Show("Bạn chưa nhập mã");
+                MessageBox.Show("Bạn chưa chọn mã hoá đơn");
             }
             else
             {

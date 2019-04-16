@@ -75,5 +75,10 @@ namespace BaiTapQLBH
                 MessageBox.Show("Bạn chưa nhập đầy đủ dữ liệu");
             }
         }
+
+        private void btOpen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

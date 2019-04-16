@@ -56,7 +56,7 @@ namespace BaiTapQLBH
             string user = txtMachatlieu.Text;
             if (String.IsNullOrEmpty(user))
             {
-                MessageBox.Show("Bạn chưa nhập mã khách ");
+                MessageBox.Show("Bạn chưa nhập Mã chất liệu ");
             }
             else
             {
@@ -87,7 +87,7 @@ namespace BaiTapQLBH
 
             if (String.IsNullOrEmpty(Macl) || String.IsNullOrEmpty(Tencl))
             {
-                MessageBox.Show("Bạn chưa nhập mã khách hoặc tên khách");
+                MessageBox.Show("Bạn chưa nhập mã chất liệu hoặc tên chất liệu");
             }
             else
             {

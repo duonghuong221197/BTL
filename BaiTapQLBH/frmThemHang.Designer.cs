@@ -242,6 +242,7 @@
             this.btOpen.TabIndex = 10;
             this.btOpen.Text = "Mở";
             this.btOpen.UseVisualStyleBackColor = true;
+            this.btOpen.Click += new System.EventHandler(this.btOpen_Click);
             // 
             // label8
             // 
